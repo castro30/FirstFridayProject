@@ -27,7 +27,7 @@ namespace ConsoleApp1
             rec1.width = recWidth;
             int firstareea = rec1.FindArea();
 
-            Console.WriteLine("The area of your" + Rectangle.color + "rectangle is " + firstareea);
+            Console.WriteLine("The area of your " + Rectangle.color + " rectangle is " + firstareea);
 
             Console.Write("Now enter the length of your second rectangle: ");
             string lengthPut2 = Console.ReadLine();
@@ -42,6 +42,7 @@ namespace ConsoleApp1
             rec2.width = recWidth2;
             int secondareea = rec2.FindArea();
 
+            Console.WriteLine("The color of your second rectangle is " + Rectangle.color + " and the area is " + secondareea);
             int totalArea = firstareea + secondareea;
 
             Console.WriteLine("Your total area is: " +  totalArea);
